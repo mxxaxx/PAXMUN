@@ -26,9 +26,6 @@
     margin-bottom: 3rem;
 }
 
-.contact-title:hover{
-    font-size:255%;
-}
 
 
 #contact-image{
@@ -82,7 +79,4 @@ h3{
 .contact-form-title{
     margin-top:0.5rem;
     margin-bottom:0.5rem;
-}
-.contact-form-title:hover{
-    font-size:180%;
 }
