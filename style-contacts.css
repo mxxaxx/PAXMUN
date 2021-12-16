@@ -80,3 +80,70 @@ h3{
     margin-top:0.5rem;
     margin-bottom:0.5rem;
 }
+
+
+#socials{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    
+  
+}
+.wrapper{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+@media screen  and (min-width:767px){
+    .wrapper .button{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+}
+@media screen  and (max-width:400px){
+    .wrapper .button{
+        margin-top:0;
+        margin-bottom:0;
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+    
+}
+.wrapper .button{
+    
+    color:white;
+    display:inline-block;
+    height:60px;
+    width:60px;
+   
+    margin-top:1rem;
+    margin-bottom:3rem;
+    
+    background:var(--backcol);
+    border-radius:50px;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+.wrapper .button .icon{
+    overflow:hidden;
+    display:inline-block;
+    height:60px;
+    text-align: center;
+    width:60px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+.wrapper .button .icon i{
+    overflow:hidden;
+    font-size: 25px;
+    line-height:60px;
+}
+
+
