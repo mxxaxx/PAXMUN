@@ -50,6 +50,7 @@
     border-top:var(--backcol) 3px solid;
     border-bottom: var(--backcol) 3px solid;
     width:50%;
+    margin-bottom:2rem;
 }
 
 #subtitle{
@@ -124,3 +125,32 @@
 }
 
 
+.join-us{
+    margin-top:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sign-up-title{
+    text-decoration: none;
+
+}
+.join-us-title{
+    width:15rem;
+    text-align: center;
+    font-size: xx-large;
+    height:5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#carouselExampleInterval{
+    max-height: 30rem;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
