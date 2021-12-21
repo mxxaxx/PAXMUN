@@ -1,13 +1,50 @@
-.title-page{
-    justify-content: center;
-    align-items: center;
+.committee-card{
+    margin:2rem;
+}
+
+
+@media screen and (min-width:1000px){
+    #content{
+        
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .committee-card{
+        height:38rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+#content{
+    margin-top:3rem;
+}
+#title{
+    left:50%;
+    text-align: center;
+    margin-top:4rem;
+
+    width:50%;
+}
+@media screen and (min-width:350px){
+    #title:hover{
+        animation:TITLE_HOVER 10s;
+    }
+    @keyframes TITLE_HOVER {
+        10%, 90%{
+            border-top:#0D6EFD solid;
+            border-bottom:#0D6EFD solid;
+            padding:3rem;
+        }
+    }
+}
+
+
+.header{
     display: flex;
-    justify-self: column;
-    flex-direction: column;
-    background:url("studying.jpg") no-repeat;
-    background-size:100%;
-    height:100%;
-    width:100%;
-    padding-top:20%;
-    padding-bottom:20%;
+    justify-content: center;
 }
