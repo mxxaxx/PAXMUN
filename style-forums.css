@@ -1,7 +1,9 @@
 .committee-card{
     margin:2rem;
 }
-
+body{
+    background: #e5e7eb;
+}
 
 @media screen and (min-width:1000px){
     #content{
