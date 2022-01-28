@@ -3,9 +3,7 @@
     padding:0;
     overflow-x: hidden;
 }
-body{
-    background: #f3f4f6;
-}
+
 :root{
     --backcol:#0D6EFD;
     /*darker:#212529*/
