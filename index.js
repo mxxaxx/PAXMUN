@@ -7,7 +7,7 @@ const seconds = document.getElementById("seconds");
 
 
 
-const munTime = new Date("May 21 2022 00:00:00");
+const munTime = new Date("June 25 2022 00:00:00");
 
 function updateCountdowntime(){
     const currentTime = new Date();
