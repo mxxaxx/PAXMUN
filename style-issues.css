@@ -1,16 +1,21 @@
-.title-page{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    justify-self: column;
-    flex-direction: column;
-    background:url("studying.jpg") no-repeat;
-    background-size:100%;
-    height:100%;
-    width:100%;
-    padding-top:20%;
-    padding-bottom:20%;
+*{
+    font-family: 'Merriweather', serif;
 }
-body{
-    background: #e5e7eb;
+
+.main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-item{
+    padding: 4rem;
+    margin:1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.issues-title{
+    
+    padding:2rem;
 }

@@ -1,48 +1,57 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+
+
 .committee-card{
     margin:2rem;
 }
-body{
-    background: #e5e7eb;
-}
+
 
 @media screen and (min-width:1000px){
     #content{
         
-        align-items: center;
         display: flex;
-        justify-content: center;
+        
     }
 
     .committee-card{
-        height:38rem;
+        height:41rem;
+        width:30%;
         align-items: center;
         display: flex;
         justify-content: center;
     }
     
+    
 }
 
 #content{
     margin-top:3rem;
+    justify-content: space-around;
 }
 #title{
     left:50%;
     text-align: center;
     margin-top:4rem;
-
+    transition: 3s;
     width:50%;
 }
 @media screen and (min-width:350px){
-    #title:hover{
-        animation:TITLE_HOVER 10s;
+    #title{
+        /* animation:TITLE_HOVER 4s; */
+        border-top:#0D6EFD solid;
+        border-bottom:#0D6EFD solid;
+        padding:2rem;
     }
-    @keyframes TITLE_HOVER {
+    /* @keyframes TITLE_HOVER {
         10%, 90%{
             border-top:#0D6EFD solid;
             border-bottom:#0D6EFD solid;
-            padding:3rem;
+            padding:2rem;
+            transition:2s;
         }
-    }
+    } */
 }
 
 
